@@ -191,7 +191,7 @@ export default {
     thicknesses: [{text: '1 мм', value: '1'}, {text: '2 мм', value: '2'}, {text: '3 мм', value: '3'}],
     couplingInnerDiameters: [{text: '1 мм', value: '1'}, {text: '2 мм', value: '2'}, {text: '3 мм', value: '3'}],
     couplingWidths: [{text: '1 мм', value: '1'}, {text: '2 мм', value: '2'}, {text: '3 мм', value: '3'}],
-    dialog: true,
+    dialog: false,
   }),
 
   methods: {
