@@ -14,7 +14,7 @@
           {{ btn.title }}
         </v-btn>
       </div>
-      <div class="d-flex justify-center align-center ga-2">
+      <div class="d-flex justify-center align-center ga-2 cursor-pointer">
         <span class="header-user-name">Иван Иванов</span>
         <img src="/src/assets/avatar.png " alt="avatar">
       </div>
@@ -77,7 +77,7 @@ export default {
   font-size: 12px;
   font-weight: var(--font-w-semi-bold);
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 
 }
@@ -90,7 +90,7 @@ export default {
   font-size: 14px;
   font-weight: var(--font-w-regular);
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 
 }
